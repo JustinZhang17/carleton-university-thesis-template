@@ -80,7 +80,7 @@ typst compile main.typ
 
 This generates a PDF of your thesis
 
-### Using Typst's Web App
+### 2. Using Typst's Web App
 
 Alternatively, upload the project to the [Typst web application](https://typst.app) and view your thesis directly in the browser.
 
