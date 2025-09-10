@@ -1,10 +1,20 @@
-# Carleton University Thesis Template 
+<div align='center'>
+<img src='https://github.com/user-attachments/assets/2e78fcae-a366-4fb2-9687-81c9e6ee31e6' alt='Logo' height='150' style='margin-bottom: -2rem;'>
+
+<h2 align='center'>Carleton University Thesis Template</h2>
+
+<p align='center'>
+A Typst-based template for Computer Science Students
+</p>
+</div>
+
+# 
 
 This repository provides a Typst-based thesis template for Carleton University students. It is designed for simplicity and modularity, allowing you to easily structure your thesis into separate chapters while keeping configuration details in one place.
 
 ## Project Structure
 
-```
+```markdown
 ├── chapters/               # Write each section of your thesis here
 │   ├── abstract.typ
 │   ├── acknowledgements.typ
@@ -23,11 +33,20 @@ This repository provides a Typst-based thesis template for Carleton University s
 └── README.md               
 ```
 
+## Preview
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3d8a0575-500b-4e2a-8caf-a5d241f72c60" width="30%" /> 
+  <img src="https://github.com/user-attachments/assets/5e17b5c8-ae0f-4dda-917a-13e61284ddd5" width="30%" />
+  <img src="https://github.com/user-attachments/assets/a9342a46-14c2-4542-a15e-e6fc0a139600" width="30%" />
+</div>
+
+
 ## Configuration
 
 Edit `config.typ` to update your thesis details:
 
-```
+```typst
 #let thesis_title = "Lorem Thesis Title"
 #let thesis_subtitle = "The details of Ipsum"
 #let name = "Justin Zhang"
@@ -55,7 +74,7 @@ You can build the thesis in two ways:
 
 ### 1. Using Typst CLI 
 
-```
+```bash
 typst compile main.typ
 ```
 
